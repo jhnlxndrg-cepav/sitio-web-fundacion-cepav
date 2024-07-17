@@ -1,0 +1,74 @@
+.container_mision {
+    padding: 100px;
+    
+}
+
+.contenido {
+    display: flex;
+}
+
+.imagen_fundacion img {
+    max-width: 500px;
+    height: 90%;
+    object-fit: cover;
+    border-radius: 25px;
+    margin-right: 70px;
+}
+
+.texto_mision {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 80%;
+}
+
+.nuestra_historia h1{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.nuestra_historia p {
+    font-size: 15px;
+    text-align: justify;
+    margin-right: 30px;
+}
+
+.nuestra_mision h1 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.nuestra_mision p {
+    font-size: 15px;
+    text-align: justify;
+    padding-right: 30px;
+}
+
+.nuestros_pilares {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.nuestros_pilares h1 {
+    font-size: 30px;
+}
+
+.nuestros_pilares h2 {
+    font-size: 20;
+}
+
+.nuestros_pilares p {
+    font-size: 15;
+}
+
+.tarjetas {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+
+.tarjeta {
+    flex-basis: 30%;
+    padding: 30px;
+}
+
