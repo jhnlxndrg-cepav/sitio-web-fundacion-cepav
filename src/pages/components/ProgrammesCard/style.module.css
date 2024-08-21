@@ -1,0 +1,47 @@
+.WrapperProgrammesCard {
+    background-color: rgba(164, 192, 235, 0.05);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 420px;
+    padding: 2rem;
+    font-family: "Roboto", sans-serif;
+    color: #fff;
+}
+
+.title {
+    font-family: "Englebert", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 32px;
+    margin: 2rem 0;
+}
+
+.description {
+    font-size: 14px;
+    font-weight: bold;
+    margin: 1rem 0;
+}
+
+.parragraph {
+    font-size: 12px;
+    font-weight: 400;
+    margin: 0 1rem 2rem;
+    text-align: center;
+}
+
+.button {
+    /* background-color: #FFA726; */
+    background-color: transparent;
+    font-size: 1rem;
+    color: #FFA726;
+    padding: 1rem;
+    border: 1px solid #FFA726;
+}
+
+.button:hover {
+    background-color: #FFA726;
+    color: #fff;
+    cursor: pointer;
+}

@@ -1,5 +1,5 @@
 import React from 'react'
-import IconClose from '../../assets/icon-close.svg'
+import IconClose from '../../../assets/icon-close.svg'
 
 import Style from './style.module.css'
 

@@ -1,0 +1,26 @@
+.wrapperOurProgrammes {
+    background-color: #405B91;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    padding: 5rem 2rem;
+}
+
+.titleOurProgrammes {
+    font-family: "Englebert", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2rem;
+    color: #fff;
+    margin-bottom: 5rem;
+}
+
+.wrapperProgrammesCard {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 2rem;
+}
