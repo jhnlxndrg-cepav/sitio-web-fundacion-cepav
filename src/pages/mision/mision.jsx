@@ -1,5 +1,5 @@
 import React from 'react';
-import misionImagen from '../assets/images/mision.jpeg';
+import misionImagen from '../../assets/images/mision.jpg'
 import './mision.css' // CSS 
 import { MdOutlineWork } from "react-icons/md"; // ICONO
 
@@ -8,7 +8,7 @@ const Mision = () => {
         <div className="container_mision">
             <div className="contenido">
             <div className="imagen_fundacion">
-                <img src={misionImagen} alt="Imagen de graduados de la Fundación CEPAV"/>
+                <img src={misionImagen} alt="Imagen de graduados de la Fundación CEPAV" className="imagen_fundacion"/>
             </div>
             <div className="texto_mision">
             <div className="nuestra_historia">

@@ -1,0 +1,52 @@
+.menu {
+    display: flex;
+    list-style: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.menuItem {
+    margin-right: 32px;
+    padding: 8px 16px;
+    border-width: 0;
+    border-bottom-width: 3px;
+    border-style: solid;
+    border-color: transparent;
+}
+
+.menuItem a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.menuItem:hover {
+    border-color: #FFA726;
+    color: #FFA726;
+    cursor: pointer;
+}
+
+.menuItem:hover:last-child {
+    border: none;
+}
+
+.menuItem:last-child a {
+    background-color: transparent;
+    padding: 8px 16px;
+    color: #fff;
+}
+
+.menuItem:last-child a {
+    border-width: 3px;
+    border-style: solid;
+    border-color: transparent;
+}
+
+.menuItem:last-child a:hover {
+    background-color: #FFA726;
+    padding: 8px 16px;
+    color: #fff;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #FFA726;
+}

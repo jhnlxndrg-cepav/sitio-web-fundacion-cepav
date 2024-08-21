@@ -4,5 +4,5 @@ import react from '@vitejs/plugin-react-swc'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: 'https://jhnlxndrg-cepav.github.io/hosting/'
+  base: 'http://bucket-website-fundacion-cepav.s3-website.us-east-2.amazonaws.com/'
 })
